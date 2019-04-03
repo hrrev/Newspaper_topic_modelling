@@ -1,4 +1,4 @@
-# Newspaper_topic_modelling
+# Newspaper topic modelling
 
 This project provides the users an ability to understand the trending news topics from a given timeframe by clustering popular keywords.
 
