@@ -6,4 +6,6 @@ The user can provide the start and end date and could specify a list of web news
 
 The code uses bow LDA algorithm for topic modelling. The news articles are extracted from the commoncrawl news archives. The code uses newsplease library to extract the articles from the archive. Some of the original files from the library had to be modified and have been included. The graphs are plotted using pyLDAvis library.
 
-Some of the example results can be found under result images directory.
+Some of the example results can be found under result images directory. Note that these resuls have been obtained for a single day and for a single news source(nytimes).
+
+Note that the flask api is bases on nytimes api instead of CommonCrawl archives to provide user with results within 15-20 minutes. Downloading archives from CommonCrwal for first time will take much longer and hence suited for personal work instead of a website.
